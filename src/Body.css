@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.google.com/specimen/Josefin+Sans');
+
+.body-container {
+    margin-top: 165px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.text {
+    width: 450px;
+    height: 500px;
+    font-family: 'Alata', sans-serif ;
+    font-weight:  400; 
+    position: relative;
+    background-color: white;
+    top: 190px;
+    left: 565px;
+    padding-left: 90px;
+    padding-top: 70px;
+}
+
+.photo-container {
+    position: absolute;
+}

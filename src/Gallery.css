@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.google.com/specimen/Josefin+Sans');
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:150px;
+    margin-right:150px;
+}
+
+.image-container {
+    width: 20%;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 25px;
+    text-align: left;
+}
+
+.image-container img {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.image-container h1 {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 30px;
+
+}
+
+.header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 150px;
+
+}
+
+.creations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-top: 175px;
+    margin-bottom: 85px;
+    align-items: center;
+}
+
+.creations > button {
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
